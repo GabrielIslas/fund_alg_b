@@ -9,6 +9,5 @@ char unCaracter = 'M';
 
 int main(){
     printf("Hello Data B %s\n", name);
-    printf("new laptop");
     return 0;
 }
