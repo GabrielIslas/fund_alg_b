@@ -8,6 +8,13 @@ int main(int argc, char** argv){
         return 0;
     } 
 
+    int isANumber = argv[1][0] >= 48 && argv[1][0] <= 57;
+
+    if(!isANumber){
+        printf("The input isn't a number \n");
+        return 0;
+    }
+
     int numberInput = atoi(argv[1]);
 
     if(numberInput % 2 == 0){
