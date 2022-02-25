@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "stdbool.h": "c"
+        "stdbool.h": "c",
+        "unit2/libraries/time.h": "c",
+        "unit2/libraries/stdlib.h": "c",
+        "unit2/libraries/stdbool.h": "c",
+        "unit2/libraries/stdio.h": "c"
+
     }
 }
