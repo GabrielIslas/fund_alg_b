@@ -12,13 +12,15 @@ int main(int argc, char**argv){
     int oddAmount = atoi(argv[2]);
 
     printf("Even iteration\n");
-    for(int i = 0; i <= evenAmount; i += 2){
+    for(int i = 2; i <= evenAmount; i += 2){
         printf("The number %d is even\n", i);
     }
 
     printf("\nOdd iteration\n");
-    for(int i = 1; i <= oddAmount; i += 2){
+    int i = 1;
+    while(i <= oddAmount){
         printf("The number %d is odd\n", i);
+        i += 2;
     }
     return 0;
 }
